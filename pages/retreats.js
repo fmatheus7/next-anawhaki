@@ -1,5 +1,5 @@
 import React from "react";
-import SideCard from "./SideCard";
+import SideCard from "./../components/SideCard";
 
 const Retreats = () => {
   return (

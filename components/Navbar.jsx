@@ -4,8 +4,8 @@ import { AiOutlineMenu, AiOutlineStar, AiOutlineClose } from "react-icons/ai";
 import Logo from "./Logo";
 const Navbar = () => {
   return (
-    <div className='max-w-7xl mx-auto'>
-      <div className='navbar bg-base-100'>
+    <div className='max-w-7xl mx-auto '>
+      <div className='navbar bg-base-100 bg-gradient-to-r from-yellow-500 rounded-xl'>
         <div className='navbar-start'>
           <div className='dropdown'>
             <label tabIndex='0' className='btn btn-ghost btn-circle'>
@@ -39,26 +39,28 @@ const Navbar = () => {
           </div>
         </div>
         <div className='navbar-center'>
-          <a className='btn btn-ghost normal-case text-xl'>Anawhaki</a>
+          <Link href={"/"}>
+            <a className='btn btn-ghost normal-case text-xl'>Anawhaki</a>
+          </Link>
         </div>
         <div className='navbar-end'>
           <ul className='hidden sm:flex items-center justify-between space-x-3'>
             <Link href='/retreats'>
               <li className='cursor-pointer'>Retreats</li>
             </Link>
-            <Link href='/Events'>
+            <Link href='/events'>
               <li className='cursor-pointer'>Events</li>
             </Link>
-            <Link href='/Cerimonies'>
+            <Link href='/cerimonies'>
               <li className='cursor-pointer'>Cerimonies</li>
             </Link>
-            <Link href='/Medicines'>
+            <Link href='/medicines'>
               <li className='cursor-pointer'>Medicines</li>
             </Link>
-            <Link href='/serviços'>
+            <Link href='/services'>
               <li className='cursor-pointer'>Serviços</li>
             </Link>
-            <Link href='/About'>
+            <Link href='/about'>
               <li className='cursor-pointer'>About us</li>
             </Link>
           </ul>
