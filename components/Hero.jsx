@@ -18,14 +18,14 @@ const Hero = () => {
         <div className='hero-content text-center text-neutral-content'>
           <div className='max-w-md'>
             <h1 className='mb-5 text-5xl font-bold'>
-              Anawhaki <span className='font-bold underline'>Xamanismo</span>{" "}
+              Anawhaki <span className='font-bold underline'>Xamanismo</span>
               Estelar
             </h1>
             <p className='mb-5'>
               Queremos ajudar te a compreender o que os véus do sofrimento não
               te deixam ver. Esses véus podem ser extraídos. Sei que não parece
               uma grande promessa. Mas prometemos isto: Estar a teu lado na
-              "escuridão" lembrando-te (e preparando-te) sempre que um dia vais
+              escuridão lembrando-te (e preparando-te) sempre que um dia vais
               ser capaz de iluminar a tua imensidão.
             </p>
             <button className='btn btn-primary'>Get Started</button>

@@ -27,7 +27,7 @@ const SideCard = () => {
             saberes são passados por iniciações realizadas nas Jornadas
             Xamanicas, transformando o praticante num Guardião. A didática de
             aprendizagem durante uma Jornada Xamanica é realizada através de
-            "desafios" que envolvem concentração, vínculo, aumento da capacidade
+            desafios que envolvem concentração, vínculo, aumento da capacidade
             de resiliência, auto superação e expansão de limitações. Honrar as
             práticas xamanicas atraves das tradições é uma boa maneira de
             estarmos profundamente conectados com as energias de cura fisica/
