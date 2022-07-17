@@ -1,60 +1,27 @@
 import React from "react";
+import PhotoGaleryModal from "./PhotoGaleryModal";
 
-const Galery = () => {
+const isOpen = () => true;
+// TODO: MAKE GALERY COMPONENT USABLE IN DIFERENTES SCENARIOS
+// SWITCH IMG TAG TO IMAGE FROM NEXT https://www.youtube.com/watch?v=dV4qMj6QNTw&ab_channel=CodeCommerce VIEW TUTORIAL
+const Galery = ({ title, image, data }) => {
   return (
-    <div className=''>
-      <section className='overflow-hidden text-gray-700'>
-        <div className='container px-2 py-2 mx-auto lg:pt-8 lg:px-8'>
-          <div className='flex flex-wrap -m-1 md:-m-2'>
-            <div className='flex flex-wrap w-1/2'>
-              <div className='w-1/2 p-1 md:p-2'>
+    <div className='container px-5 py-2 mx-auto lg:pt-12 lg:px-32'>
+      <div className='container px-5 py-2 mx-auto lg:pt-12 lg:px-32'>
+        <div className='flex flex-wrap -m-1 md:-m-2'>
+          {data.ceremonies?.map((cerimonie) => (
+            <div key={cerimonie.id} class='flex flex-wrap w-1/3'>
+              <div class='w-full p-1 md:p-2'>
                 <img
                   alt='gallery'
-                  className='block object-cover object-center w-full h-full rounded-lg'
-                  src='https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp'
-                />
-              </div>
-              <div className='w-1/2 p-1 md:p-2'>
-                <img
-                  alt='gallery'
-                  className='block object-cover object-center w-full h-full rounded-lg'
-                  src='https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp'
-                />
-              </div>
-              <div className='w-full p-1 md:p-2'>
-                <img
-                  alt='gallery'
-                  className='block object-cover object-center w-full h-full rounded-lg'
-                  src='https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp'
+                  className=' object-cover object-center w-full h-full rounded-lg'
+                  src={cerimonie.fotos[0].url}
                 />
               </div>
             </div>
-            <div className='flex flex-wrap w-1/2'>
-              <div className='w-full p-1 md:p-2'>
-                <img
-                  alt='gallery'
-                  className='block object-cover object-center w-full h-full rounded-lg'
-                  src='https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp'
-                />
-              </div>
-              <div className='w-1/2 p-1 md:p-2'>
-                <img
-                  alt='gallery'
-                  className='block object-cover object-center w-full h-full rounded-lg'
-                  src='https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp'
-                />
-              </div>
-              <div className='w-1/2 p-1 md:p-2'>
-                <img
-                  alt='gallery'
-                  className='block object-cover object-center w-full h-full rounded-lg'
-                  src='https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(77).webp'
-                />
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
-      </section>
+      </div>
     </div>
   );
 };

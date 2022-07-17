@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./../components/Card";
-
+// TODO: FETCH DATA FROM CMS
 const Services = () => {
   return (
     <div className='max-w-7xl mx-auto py-4'>

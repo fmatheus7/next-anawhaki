@@ -1,5 +1,7 @@
 import React from "react";
 
+// TODO: SWITCH FOOTER INFOS FOR REAL ONES
+
 const Footer = () => {
   return (
     <div className='max-w-7xl mx-auto'>

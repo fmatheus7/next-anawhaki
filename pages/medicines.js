@@ -1,6 +1,6 @@
 import React from "react";
 import HCard from "./../components/HCard";
-
+// TODO: FETCH DATA FROM CMS
 const Medicines = () => {
   return (
     <div className='max-w-7xl mx-auto py-4'>
