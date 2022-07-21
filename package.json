@@ -12,6 +12,8 @@
     "@apollo/client": "^3.6.9",
     "apollo-graphql": "^0.9.7",
     "daisyui": "^2.17.0",
+    "embla-carousel": "^7.0.0-rc05",
+    "embla-carousel-react": "^7.0.0-rc05",
     "graphql": "^16.5.0",
     "next": "12.2.0",
     "react": "18.2.0",

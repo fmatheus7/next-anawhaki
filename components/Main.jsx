@@ -5,7 +5,7 @@ import Hero from "./Hero";
 const Main = () => {
   return (
     <div>
-      <main>
+      <main className='my-8'>
         <Carousel />
       </main>
     </div>

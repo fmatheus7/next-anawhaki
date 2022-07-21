@@ -29,9 +29,6 @@ const Agenda = () => {
                       className='text-sm font-xl text-gray-900 px-6 py-4 text-left'>
                       Local
                     </th>
-                    <th
-                      scope='col'
-                      className='text-sm font-xl text-gray-900 px-6 py-4 text-left'></th>
                   </tr>
                 </thead>
                 <tbody>
@@ -45,11 +42,6 @@ const Agenda = () => {
                     <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
                       Sintra
                     </td>
-                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
-                      <span className='cursor-pointer link-hover text-md'>
-                        <Link href='/'>Lista de espera</Link>
-                      </span>
-                    </td>
                   </tr>
                   <tr className='bg-white border-b'>
                     <td className='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900'>
@@ -61,11 +53,6 @@ const Agenda = () => {
                     <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
                       Penafiel
                     </td>
-                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
-                      <span className='cursor-pointer link-hover text-md'>
-                        <Link href='/'>Lista de espera</Link>
-                      </span>
-                    </td>
                   </tr>
                   <tr className='bg-white border-b'>
                     <td className='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900'>
@@ -76,11 +63,6 @@ const Agenda = () => {
                     </td>
                     <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
                       Porto
-                    </td>
-                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
-                      <span className='cursor-pointer link-hover text-md'>
-                        <Link href='/'>Lista de espera</Link>
-                      </span>
                     </td>
                   </tr>
                 </tbody>

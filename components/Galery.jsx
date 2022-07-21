@@ -1,21 +1,22 @@
 import React from "react";
 import PhotoGaleryModal from "./PhotoGaleryModal";
+import Image from "next/image";
 
-const isOpen = () => true;
-// TODO: MAKE GALERY COMPONENT USABLE IN DIFERENTES SCENARIOS
-// SWITCH IMG TAG TO IMAGE FROM NEXT https://www.youtube.com/watch?v=dV4qMj6QNTw&ab_channel=CodeCommerce VIEW TUTORIAL
-const Galery = ({ title, image, data }) => {
+// TODO: Make a link {Opitional} to external galery
+const Galery = ({ image, width, height }) => {
   return (
     <div className='container px-5 py-2 mx-auto lg:pt-12 lg:px-32'>
       <div className='container px-5 py-2 mx-auto lg:pt-12 lg:px-32'>
         <div className='flex flex-wrap -m-1 md:-m-2'>
-          {data.ceremonies?.map((cerimonie) => (
-            <div key={cerimonie.id} class='flex flex-wrap w-1/3'>
-              <div class='w-full p-1 md:p-2'>
-                <img
+          {image.map((img, i) => (
+            <div key={i} className='flex flex-wrap w-1/3'>
+              <div className='w-full p-1 md:p-2'>
+                <Image
                   alt='gallery'
                   className=' object-cover object-center w-full h-full rounded-lg'
-                  src={cerimonie.fotos[0].url}
+                  src={img}
+                  width={width}
+                  height={height}
                 />
               </div>
             </div>
