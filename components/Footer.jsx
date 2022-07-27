@@ -77,7 +77,7 @@ const Footer = () => {
                 Entre em contato
               </h6>
               <p className='flex items-center justify-center md:justify-start mb-4'>
-                <FaHome size={20} /> New York, NY 10012, US
+                <FaHome size={20} /> Penafiel - Porto / PORTUGAL
               </p>
               <p className='flex items-center justify-center md:justify-start mb-4'>
                 <MdAlternateEmail size={20} /> anawhaki@anawhaki.com

@@ -4,7 +4,7 @@ import { AiOutlineMenu, AiOutlineStar, AiOutlineClose } from "react-icons/ai";
 import Logo from "./Logo";
 const Navbar = () => {
   return (
-    <div className='max-w-7xl mx-auto '>
+    <div className='max-w-7xl mx-auto'>
       <div className='navbar bg-base-100 bg-gradient-to-r from-yellow-500 rounded-xl'>
         <div className='navbar-start'>
           <div className='dropdown'>

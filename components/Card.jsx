@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const Card = ({ title, img, desc }) => {
   return (
-    <div>
+    <div className='container'>
       <div className='flex justify-center mx-4'>
-        <div className='flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg'>
+        <div className='flex-1 flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg'>
           <Image
             className=' w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg'
             alt='/'

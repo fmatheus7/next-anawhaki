@@ -8,14 +8,26 @@ const AboutUs = () => {
           Nossa História
         </h1>
       </div>
-      <p className='py-4 mx-4'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolorem
-        nam illo at quo recusandae necessitatibus saepe libero quibusdam vero
-        pariatur sapiente, dolor suscipit numquam maxime, nisi rerum
-        repudiandae! Fugit! Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Tempore error voluptate atque commodi? Dolores ipsam temporibus
-        obcaecati ducimus illum ad sit. Debitis quisquam exercitationem cum
-        aliquam laboriosam officia quo porro.
+      <p className='py-4 mx-4 tracking-wider text-md font-sans leading-relaxed text-justify '>
+        O <span className='font-bold text-2xl'>Anawhaki</span> é um grupo neo
+        xamanico com uma visão estelar. Nosso intuito com as terapias
+        energéticas, cerimonias com Plantas de Poder, cursos e iniciações é
+        lembrar que somos sementes estelares divinas, que estamos aqui como
+        voluntários cósmicos para ajudar este planeta no processo de evolução
+        espiritual e que, tudo o mais que está a acontecer, faz parte dos ricos
+        aprendizados que passamos para realizar este sagrado e honrado
+        voluntariado cósmico. Procuramos em nosso servir resgatar nas pessoas a
+        consciência plena da saúde, alegria, abundancia e iluminação interior.
+        Somos inspirados pela tradição xamanica do Caminho Vermelho (Mexico),
+        nesta tradição os saberes são passados por iniciações realizadas nas
+        Jornadas Xamanicas, transformando o praticante num Guardião. A didática
+        de aprendizagem durante uma Jornada Xamanica é realizada através de
+        desafios que envolvem concentração, vínculo, aumento da capacidade de
+        resiliência, auto superação e expansão de limitações. Honrar as práticas
+        xamanicas atraves das tradições é uma boa maneira de estarmos
+        profundamente conectados com as energias de cura fisica/
+        mental/emocional, de despertar dentro de nós os saberes e abundancia
+        advindas dos povos ancestrais.
       </p>
     </div>
   );
