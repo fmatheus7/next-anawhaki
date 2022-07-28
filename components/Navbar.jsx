@@ -1,10 +1,10 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { AiOutlineMenu, AiOutlineStar, AiOutlineClose } from "react-icons/ai";
-import Logo from "./Logo";
+import logo from "../public/logo.ico";
 const Navbar = () => {
   return (
-    <div className='max-w-7xl mx-auto'>
+    <div className='w-full mx-auto'>
       <div className='navbar bg-base-100 bg-gradient-to-r from-yellow-500 rounded-xl'>
         <div className='navbar-start'>
           <div className='dropdown'>
@@ -40,7 +40,10 @@ const Navbar = () => {
         </div>
         <div className='navbar-center'>
           <Link href={"/"}>
-            <a className='btn btn-ghost normal-case text-xl'>Anawhaki</a>
+            <div className='flex items-center'>
+              <Image src={logo} width={40} height={40} alt='logo' />
+              <a className='btn btn-ghost normal-case text-xl'>Anawhaki</a>
+            </div>
           </Link>
         </div>
         <div className='navbar-end'>
