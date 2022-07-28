@@ -22,19 +22,6 @@ const Footer = () => {
           <div className='flex justify-center'>
             <a
               href='https://www.facebook.com/ANAWHAKI'
-              target='_blank'
-              className='mr-6 text-gray-600'>
-              <FaFacebook size={30} />
-            </a>
-            <a
-              href='https://www.instagram.com/anawhakineoxamanismo/'
-              target='_blank'
-              className='mr-6 text-gray-600'>
-              <FaInstagram size={30} />
-            </a>
-            <a
-              href='https://web.whatsapp.com/'
-              target='_blank'
               className='mr-6 text-gray-600'>
               <FaWhatsapp size={30} />
             </a>
