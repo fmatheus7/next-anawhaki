@@ -1,5 +1,4 @@
 import React from "react";
-import PhotoGaleryModal from "./PhotoGaleryModal";
 import Image from "next/image";
 
 // TODO: Make a link {Opitional} to external galery
