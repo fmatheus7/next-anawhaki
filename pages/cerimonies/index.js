@@ -2,7 +2,6 @@ import React from "react";
 import Galery from "../../components/Galery";
 import { gql, useQuery } from "@apollo/client";
 import client from "../../apollo-client";
-import PhotoGaleryModal from "../../components/PhotoGaleryModal";
 import Link from "next/link";
 import Image from "next/image";
 
