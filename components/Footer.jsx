@@ -13,7 +13,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className='max-w-7xl mx-auto'>
+    <div className='w-full mx-auto'>
       <footer className='text-center lg:text-left bg-gray-100 text-gray-600'>
         <div className='flex justify-center items-center lg:justify-between p-6 border-b border-gray-300'>
           <div className='mr-12 hidden lg:block'>
