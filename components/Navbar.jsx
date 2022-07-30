@@ -42,7 +42,7 @@ const Navbar = () => {
           <Link href={"/"}>
             <div className='flex items-center'>
               <Image src={logo} width={40} height={40} alt='logo' />
-              <a className='btn btn-ghost normal-case text-xl text-black'>
+              <a className='btn btn-ghost normal-case text-xl text-black tracking-widest'>
                 Anawhaki
               </a>
             </div>
