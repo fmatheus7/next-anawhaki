@@ -4,7 +4,7 @@ import React from "react";
 import logo from "../public/logo.ico";
 const Navbar = () => {
   return (
-    <div className='w-full mx-auto'>
+    <div className='w-full mx-auto text-black'>
       <div className='navbar bg-base-100 bg-gradient-to-r from-yellow-500 rounded-xl'>
         <div className='navbar-start'>
           <div className='dropdown'>
@@ -42,7 +42,9 @@ const Navbar = () => {
           <Link href={"/"}>
             <div className='flex items-center'>
               <Image src={logo} width={40} height={40} alt='logo' />
-              <a className='btn btn-ghost normal-case text-xl'>Anawhaki</a>
+              <a className='btn btn-ghost normal-case text-xl text-black'>
+                Anawhaki
+              </a>
             </div>
           </Link>
         </div>
