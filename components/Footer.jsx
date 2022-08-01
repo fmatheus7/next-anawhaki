@@ -5,6 +5,8 @@ import {
   FaWhatsapp,
   FaHome,
   FaPhone,
+  FaSpotify,
+  FaYoutube,
 } from "react-icons/fa";
 import { MdAlternateEmail } from "react-icons/md";
 import Link from "next/link";
@@ -24,6 +26,26 @@ const Footer = () => {
               href='https://www.facebook.com/ANAWHAKI'
               className='mr-6 text-gray-600'>
               <FaWhatsapp size={30} />
+            </a>
+            <a
+              href='https://www.instagram.com/anawhakineoxamanismo/'
+              className='mr-6 text-gray-600'>
+              <FaInstagram size={30} />
+            </a>
+            <a
+              href='https://open.spotify.com/artist/7kcZ1XZWi4w90fhWfn2qzw?si=wmBZ1e4eSgeCkdSDziGfnw'
+              className='mr-6 text-gray-600'>
+              <FaSpotify size={30} />
+            </a>
+            <a
+              href='https://www.youtube.com/channel/UCnC8nRtPbCxVlclTieFiOQg'
+              className='mr-6 text-gray-600'>
+              <FaYoutube size={30} />
+            </a>
+            <a
+              href='https://www.facebook.com/ANAWHAKI'
+              className='mr-6 text-gray-600'>
+              <FaFacebook size={30} />
             </a>
           </div>
         </div>

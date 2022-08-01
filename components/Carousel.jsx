@@ -30,7 +30,7 @@ const Carousel = () => {
                   height='450'
                   alt='/'
                   src={cerimonias}
-                  className='rounded-md cursor-pointer'
+                  className='rounded-md cursor-pointer '
                 />
               </Link>
 

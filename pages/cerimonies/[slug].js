@@ -18,7 +18,7 @@ const cerimoniesQuery = gql`
   }
 `;
 
-const CerimoniesDetails = (props) => {
+const CerimoniesDetails = () => {
   const router = useRouter();
   const slug = router.query.slug;
   const { data, error, loading } = useQuery(cerimoniesQuery);

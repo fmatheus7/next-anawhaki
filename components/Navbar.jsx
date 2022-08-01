@@ -68,6 +68,9 @@ const Navbar = () => {
             <Link href='/about'>
               <li className='cursor-pointer'>About us</li>
             </Link>
+            <Link href='/musics'>
+              <li className='cursor-pointer'>Musicas</li>
+            </Link>
           </ul>
         </div>
       </div>

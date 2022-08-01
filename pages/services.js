@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./../components/Card";
+import Card from "../components/Card";
 import rape from "../public/rape.jpg";
 import sananga from "../public/sananga.jpg";
 import ayahuasca from "../public/ayahuasca.jpg";
@@ -18,13 +18,15 @@ const Services = () => {
           Nossos Serviços
         </h1>
       </div>
-      <div className='sm:grid gap-4 grid-cols-3  py-2'>
-        <div className='container'>
-          <Card
-            title={"cerimonias"}
-            desc={reike}
-            img={ayahuasca}
-          />
+      <div className='container py-2'>
+        <div className='md:flex justify-between space-x-4 flex-wrap space-y-4 '>
+          <Card title={"cerimonias"} desc={reike} img={ayahuasca} />
+          <Card title={"cerimonias"} desc={reike} img={rape} />
+          <Card title={"cerimonias"} desc={reike} img={sananga} />
+          <Card title={"cerimonias"} desc={reike} img={ayahuasca} />
+          <Card title={"cerimonias"} desc={reike} img={ayahuasca} />
+
+          <Card title={"cerimonias"} desc={reike} img={ayahuasca} />
         </div>
       </div>
     </div>
